@@ -4,19 +4,25 @@ import Layout from '../components/Layout'
 const AboutPage = () => {
   return (
     <Layout title="About">
-      <h1 className="text-3xl font-bold my-4 antialiased text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-600">
-        A bit more about Kate
-      </h1>
+      <div className="text-3xl font-bold my-4 antialiased">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-600">
+          A bit more about Kate
+        </span>
+      </div>
       <p className="text-base text-gray-700 antialiased">
         Currently design system at Segment, previously platform design at
         Segment, and designed IT products at Splunk. A developer in my previous
-        life, while I still mess around with code to build prototypes to tell a
-        good story from time to time. You can find my resume at{' '}
+        life and still mess around with code to build prototypes to tell a good
+        story from time to time. You can find my resume at{' '}
         <a href="https://read.cv/kamebkj" target="_blank" rel="noreferrer">
           read.cv/kamebkj
         </a>{' '}
         or if you prefer a{' '}
-        <a href="https://read.cv/kamebkj" target="_blank" rel="noreferrer">
+        <a
+          href="https://drive.google.com/file/d/1oZrEKqTgPvYysDS6IdIj4zP0Ue4em3r4/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
           pdf
         </a>{' '}
         version.

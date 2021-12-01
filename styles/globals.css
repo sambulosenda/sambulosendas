@@ -9,10 +9,12 @@
   a:hover {
     @apply text-gray-500;
   }
-  header a {
+  header a,
+  footer a {
     @apply border-none;
   }
-  header a:hover {
+  header a:hover,
+  footer a:hover {
     @apply border-none;
   }
 }
