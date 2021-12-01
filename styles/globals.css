@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply border-b border-dashed border-gray-400;
+  }
+  a:hover {
+    @apply text-gray-500;
+  }
+  header a {
+    @apply border-none;
+  }
+  header a:hover {
+    @apply border-none;
+  }
+}

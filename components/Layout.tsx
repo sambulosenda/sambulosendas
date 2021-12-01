@@ -9,28 +9,34 @@ type Props = {
 
 const Layout = ({ children, title = 'Default title' }: Props) => {
   return (
-    <div>
+    <div className="max-w-screen-sm mx-auto px-6 bg-gray-50 dark:bg-gray-800">
       <Head>
         <title>{title}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <header>
-        <nav>
-          <Link href="/">
-            <a>Kate Hsiao</a>
-          </Link>
-          <Link href="/projects">
-            <a>Work</a>
-          </Link>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
+        <nav className="flex justify-between space-x-6 py-10 antialiased text-gray-500">
+          <div className="flex-grow">
+            <Link href="/">
+              <a>Kate Hsiao</a>
+            </Link>
+          </div>
+          <div>
+            <Link href="/projects">
+              <a>Work</a>
+            </Link>
+          </div>
+          <div>
+            <Link href="/about">
+              <a>About</a>
+            </Link>
+          </div>
         </nav>
       </header>
       {children}
       <footer>
-        <span>I am a footer</span>
+        <div className="py-20">I am a footer </div>
       </footer>
     </div>
   )

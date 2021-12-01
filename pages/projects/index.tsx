@@ -10,7 +10,7 @@ type Props = {
 
 const WithStaticProps = ({ items }: Props) => (
   <Layout title="Work">
-    <h1>Work</h1>
+    <h1 className="text-3xl font-bold my-4">Work</h1>
     {items.map((item) => (
       <ListItem key={item.id} data={item} />
     ))}
