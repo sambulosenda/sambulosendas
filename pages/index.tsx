@@ -12,9 +12,8 @@ const IndexPage = () => {
       </div>
       <p className="text-base text-gray-700 antialiased">
         I’m Kate, a Product Designer who loves pattern finding and crafting
-        functional and beautiful user experience. Obsessed with system thinking
-        and trying to apply different data model to the world. A firm believer
-        that API design is product design. Currently leading{' '}
+        functional and beautiful user experience. Obsessed with system thinking.
+        A firm believer that API design is product design. Currently leading{' '}
         <a
           href="https://evergreen.segment.com"
           target="_blank"

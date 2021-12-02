@@ -10,10 +10,33 @@ const AboutPage = () => {
         </span>
       </div>
       <p className="text-base text-gray-700 antialiased">
-        Currently design system at Segment, previously platform design at
-        Segment, and designed IT products at Splunk. A developer in my previous
-        life and still mess around with code to build prototypes to tell a good
-        story from time to time. You can find my resume at{' '}
+        Currently leading{' '}
+        <a
+          href="https://evergreen.segment.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Evergreen design system
+        </a>{' '}
+        at Segment. Previously leading the design for the{' '}
+        <a
+          href="https://segment.com/product/connections/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Connections
+        </a>{' '}
+        product at Segment, and{' '}
+        <a
+          href="https://www.splunk.com/en_us/software/it-service-intelligence.html"
+          target="_blank"
+          rel="noreferrer"
+        >
+          IT products
+        </a>{' '}
+        at Splunk. A developer in my previous life and still mess around with
+        code to build prototypes to tell a good story from time to time. You can
+        find my resume at{' '}
         <a href="https://read.cv/kamebkj" target="_blank" rel="noreferrer">
           read.cv/kamebkj
         </a>{' '}
@@ -33,19 +56,18 @@ const AboutPage = () => {
         do their best work. It is not too different from building a product that
         helps a specific persona to accomplish their goal, but with system
         design, I get to build the muscle of thinking more horizontally and
-        finding patterns in the design problem.
+        finding patterns in the problem space.
         <br />
         <br />I love surrounding myself with a group of people who are
-        passionate about design systems and have a constant debate about the
-        right altitude to focus on, from setting the vision to pushing pixels,
-        from creating the components to creating the process for others to
-        contribute to. There are challenges at all stages and that is what makes
-        system design fun. In my spare time, I try to write more but have not
-        been super successful. Probably spend too much time in Zelda and Animal
-        Crossing these days. Use hiking as my meditation approach. <br />
+        passionate about design systems and having constant debates about the
+        right altitude to focus on: from setting the vision to pushing pixels,
+        from creating components to creating the process to empower others.
+        There are challenges at all stages and that is what makes system design
+        fun. <br />
         <br />
-        Based in the Bay Area, have a special heart for Seattle, and still call
-        Taipei my home where most of my family is at.
+        Based in the Bay Area, and still call Taipei my home where most of my
+        family is at. Probably spending too much time in Zelda and Animal
+        Crossing these days.
       </p>
     </Layout>
   )
