@@ -6,10 +6,7 @@ import '../styles/globals.css'
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <ThemeProvider attribute="class">
-      <Component
-        {...pageProps}
-        className="transition duration-500 ease-in-out"
-      />
+      <Component {...pageProps} />
     </ThemeProvider>
   )
 }

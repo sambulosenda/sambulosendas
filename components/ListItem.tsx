@@ -10,7 +10,7 @@ const ListItem = ({ data }: Props) => {
   return (
     <div className="mb-16">
       <img src={`${data.image}`} alt={`${data.id}`} className="mb-4" />
-      <div className="text-base font-medium text-gray-800 antialiased mb-1 flex items-center dark:text-gray-100">
+      <div className="text-base font-medium text-gray-800 antialiased mb-1 flex items-center dark:text-gray-100 transition-all">
         <a
           href={`${data.url}`}
           target="_blank"
@@ -21,7 +21,7 @@ const ListItem = ({ data }: Props) => {
         </a>
         <FiArrowUpRight className="ml-1 -mb-1" />
       </div>
-      <p className="text-base text-gray-700 antialiased dark:text-gray-200">
+      <p className="text-base text-gray-700 antialiased dark:text-gray-200 transition-all">
         {data.description}
       </p>
       {/* <Link href="/projects/[id]" as={`/projects/${data.id}`}>
