@@ -1,8 +1,8 @@
 import React, { ReactNode } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
+import ModeToggle from './ModeToggle'
 import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa'
-import { RiSunFill } from 'react-icons/ri'
 
 type Props = {
   children?: ReactNode
@@ -63,7 +63,7 @@ const Layout = ({ children, title = 'Default title' }: Props) => {
             </a>
           </div>
           <div>
-            <RiSunFill />
+            <ModeToggle />
           </div>
         </div>
       </footer>

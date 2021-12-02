@@ -9,7 +9,7 @@ const AboutPage = () => {
           A bit more about Kate
         </span>
       </div>
-      <p className="text-base text-gray-700 antialiased">
+      <p className="text-base text-gray-700 antialiased dark:text-gray-200">
         Currently leading{' '}
         <a
           href="https://evergreen.segment.com"
@@ -61,7 +61,7 @@ const AboutPage = () => {
         <br />I love surrounding myself with a group of people who are
         passionate about design systems and having constant debates about the
         right altitude to focus on: from setting the vision to pushing pixels,
-        from creating components to creating the process to empower others.
+        from creating components to creating the process to empowering others.
         There are challenges at all stages and that is what makes system design
         fun. <br />
         <br />
