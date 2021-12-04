@@ -52,6 +52,21 @@ const IndexPage = () => {
         )}{' '}
         side if you are feeling up for it.
       </p>
+      <p className="text-base text-gray-500 antialiased dark:text-gray-400 transition-all pt-20 -mb-5">
+        This site is handcrafted with 💜,{' '}
+        <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+          Next.js
+        </a>
+        ,{' '}
+        <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+          Tailwind
+        </a>{' '}
+        and deployed with{' '}
+        <a href="https://vercel.com/" target="_blank" rel="noreferrer">
+          Vercel
+        </a>
+        .
+      </p>
     </Layout>
   )
 }

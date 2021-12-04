@@ -34,9 +34,7 @@ const AboutPage = () => {
         >
           IT products
         </a>{' '}
-        at Splunk. A developer in my previous life and still mess around with
-        code to build prototypes to tell a good story from time to time. You can
-        find my resume at{' '}
+        at Splunk. You can find my resume at{' '}
         <a href="https://read.cv/kamebkj" target="_blank" rel="noreferrer">
           read.cv/kamebkj
         </a>{' '}

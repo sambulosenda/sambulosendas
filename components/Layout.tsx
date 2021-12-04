@@ -11,7 +11,7 @@ type Props = {
 
 const Layout = ({ children, title = 'Default title' }: Props) => {
   return (
-    <div className="bg-white dark:bg-gray-900 transition-all h-screen">
+    <div className="transition-all h-screen">
       <div className="max-w-screen-sm mx-auto px-6">
         <Head>
           <title>{title}</title>
@@ -22,7 +22,7 @@ const Layout = ({ children, title = 'Default title' }: Props) => {
           />
         </Head>
         <header>
-          <nav className="flex justify-between space-x-6 py-10 antialiased text-gray-500">
+          <nav className="flex justify-between space-x-6 py-10 antialiased text-gray-500 dark:text-gray-400">
             <div className="flex-grow">
               <Link href="/">
                 <a>Kate Hsiao</a>

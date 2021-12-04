@@ -9,7 +9,11 @@ type Props = {
 const ListItem = ({ data }: Props) => {
   return (
     <div className="mb-16">
-      <img src={`${data.image}`} alt={`${data.id}`} className="mb-4" />
+      <img
+        src={`${data.image}`}
+        alt={`${data.id}`}
+        className="mb-4 bg-indigo-50 dark:bg-gray-800 rounded-lg"
+      />
       <div className="text-base font-medium text-gray-800 antialiased mb-1 flex items-center dark:text-gray-100 transition-all">
         <a
           href={`${data.url}`}
