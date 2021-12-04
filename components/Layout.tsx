@@ -21,7 +21,7 @@ const Layout = ({ children, title = 'Default title' }: Props) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <header>
-        <nav className="flex justify-between space-x-6 py-10 antialiased text-gray-500 dark:text-gray-400">
+        <nav className="flex justify-between space-x-6 py-10 antialiased text-gray-500 dark:text-gray-400 transition-all">
           <div className="flex-grow">
             <Link href="/" passHref>
               <a className={router.pathname === '/' ? 'active' : ''}>

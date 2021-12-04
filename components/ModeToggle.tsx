@@ -9,12 +9,12 @@ const ModeToggle = () => {
       {theme === 'dark' ? (
         <RiSunFill
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          className="text-gray-500 dark:text-gray-500 text-xl cursor-pointer "
+          className="text-gray-500 dark:text-gray-500 text-xl cursor-pointer transition-all"
         />
       ) : (
         <RiMoonClearFill
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          className="text-gray-500 dark:text-gray-500 text-xl cursor-pointer "
+          className="text-gray-500 dark:text-gray-500 text-xl cursor-pointer transition-all"
         />
       )}
     </div>

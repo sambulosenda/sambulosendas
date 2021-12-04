@@ -12,7 +12,7 @@ const IndexPage = () => {
           Hi there,
         </span>
       </div>
-      <p className="text-base text-gray-700 antialiased dark:text-gray-200 ">
+      <p className="text-base text-gray-700 antialiased dark:text-gray-200 transition-all">
         I’m Kate, a Product Designer who loves pattern finding and crafting
         functional and beautiful user experience. Obsessed with system thinking.
         A firm believer that API design is product design. Currently leading{' '}
@@ -52,7 +52,7 @@ const IndexPage = () => {
         )}{' '}
         side if you are feeling up for it.
       </p>
-      <p className="text-base text-gray-500 antialiased dark:text-gray-400 pt-20 -mb-5">
+      <p className="text-base text-gray-500 antialiased dark:text-gray-400 pt-20 -mb-5 transition-all">
         This site is handcrafted with 💜,{' '}
         <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
           Next.js
