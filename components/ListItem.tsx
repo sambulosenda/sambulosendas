@@ -14,7 +14,7 @@ const ListItem = ({ data }: Props) => {
         alt={`${data.id}`}
         className="mb-4 bg-indigo-50 dark:bg-gray-800 rounded-lg"
       />
-      <div className="text-base font-medium text-gray-800 antialiased mb-1 flex items-center dark:text-gray-100 transition-all">
+      <div className="text-base font-medium text-gray-800 antialiased mb-1 flex items-center dark:text-gray-100">
         <a
           href={`${data.url}`}
           target="_blank"
@@ -25,7 +25,7 @@ const ListItem = ({ data }: Props) => {
         </a>
         <FiArrowUpRight className="ml-1 -mb-1" />
       </div>
-      <p className="text-base text-gray-700 antialiased dark:text-gray-200 transition-all">
+      <p className="text-base text-gray-700 antialiased dark:text-gray-200">
         {data.description}
       </p>
       {/* <Link href="/projects/[id]" as={`/projects/${data.id}`}>

@@ -9,6 +9,7 @@
   a:hover {
     @apply opacity-70;
   }
+
   header a,
   footer a {
     @apply border-none;
@@ -16,5 +17,11 @@
   header a:hover,
   footer a:hover {
     @apply border-none;
+  }
+  a.active {
+    @apply text-gray-700 dark:text-gray-200;
+  }
+  a.active:hover {
+    @apply opacity-100;
   }
 }

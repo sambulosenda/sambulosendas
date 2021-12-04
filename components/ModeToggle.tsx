@@ -5,16 +5,16 @@ import { RiSunFill, RiMoonClearFill } from 'react-icons/ri'
 const ModeToggle = () => {
   const { theme, setTheme } = useTheme()
   return (
-    <div className="transition duration-500 ease-in-out rounded-full">
+    <div>
       {theme === 'dark' ? (
         <RiSunFill
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          className="text-gray-500 dark:text-gray-500 text-xl cursor-pointer transition-all"
+          className="text-gray-500 dark:text-gray-500 text-xl cursor-pointer "
         />
       ) : (
         <RiMoonClearFill
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          className="text-gray-500 dark:text-gray-500 text-xl cursor-pointer transition-all"
+          className="text-gray-500 dark:text-gray-500 text-xl cursor-pointer "
         />
       )}
     </div>

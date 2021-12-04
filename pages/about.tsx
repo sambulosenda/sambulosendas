@@ -9,7 +9,7 @@ const AboutPage = () => {
           A bit more about Kate
         </span>
       </div>
-      <p className="text-base text-gray-700 antialiased dark:text-gray-200 transition-all">
+      <p className="text-base text-gray-700 antialiased dark:text-gray-200">
         Currently leading{' '}
         <a
           href="https://evergreen.segment.com"
