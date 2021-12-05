@@ -5,7 +5,11 @@ import '../styles/globals.css'
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
-    <ThemeProvider attribute="class" enableColorScheme={false}>
+    <ThemeProvider
+      attribute="class"
+      enableColorScheme={false}
+      defaultTheme="system"
+    >
       <Component {...pageProps} />
     </ThemeProvider>
   )

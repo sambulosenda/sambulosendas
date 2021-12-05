@@ -1,22 +1,23 @@
 import React from 'react'
 import { useTheme } from 'next-themes'
-import { RiSunFill, RiMoonClearFill } from 'react-icons/ri'
+import { RiSunFill, RiMoonFill } from 'react-icons/ri'
 
 const ModeToggle = () => {
-  const { theme, setTheme } = useTheme()
+  const { resolvedTheme, setTheme } = useTheme()
+
+  let icon = <RiSunFill id="sun" />
+  switch (resolvedTheme) {
+    case 'light':
+      icon = <RiMoonFill id="moon" onClick={() => setTheme('dark')} />
+      break
+    case 'dark':
+      icon = <RiSunFill id="sun" onClick={() => setTheme('light')} />
+      break
+  }
+
   return (
-    <div>
-      {theme === 'dark' ? (
-        <RiSunFill
-          onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          className="text-gray-500 dark:text-gray-500 text-xl cursor-pointer transition-all"
-        />
-      ) : (
-        <RiMoonClearFill
-          onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          className="text-gray-500 dark:text-gray-500 text-xl cursor-pointer transition-all"
-        />
-      )}
+    <div className="text-gray-500 dark:text-gray-500 text-xl cursor-pointer transition-all">
+      {icon}
     </div>
   )
 }

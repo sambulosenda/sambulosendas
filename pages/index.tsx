@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 import { useTheme } from 'next-themes'
 
 const IndexPage = () => {
-  const { theme, setTheme } = useTheme()
+  const { resolvedTheme, setTheme } = useTheme()
   return (
     <Layout title="Home">
       <div className="text-3xl font-bold my-4 antialiased">
@@ -35,16 +35,20 @@ const IndexPage = () => {
           <a>about me</a>
         </Link>
         , or join me to the{' '}
-        {theme === 'dark' ? (
+        {resolvedTheme === 'dark' ? (
           <a
-            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            onClick={() =>
+              setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
+            }
             className="cursor-pointer"
           >
             bright
           </a>
         ) : (
           <a
-            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            onClick={() =>
+              setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
+            }
             className="cursor-pointer"
           >
             dark
