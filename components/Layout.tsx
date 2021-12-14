@@ -16,7 +16,7 @@ const Layout = ({ children, title = 'Default title' }: Props) => {
   return (
     <div className="max-w-screen-sm mx-auto px-6">
       <Head>
-        <title>{title}</title>
+        <title>Kate Hsiao</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
