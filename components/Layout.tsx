@@ -25,7 +25,8 @@ const Layout = ({ children, title = 'Default title' }: Props) => {
           <div className="flex-grow">
             <Link href="/" passHref>
               <a className={router.pathname === '/' ? 'active' : ''}>
-Sambulo Senda              </a>
+                Sambulo Senda{' '}
+              </a>
             </Link>
           </div>
           <div>

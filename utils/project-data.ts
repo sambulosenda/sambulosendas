@@ -14,8 +14,7 @@ export const projectData: Project[] = [
     title: 'Airbnb React native Clone',
     image: '/project-thumbnail-functions.png',
     url: 'https://github.com/sambulosenda/Airbnb-React-Native-Clone',
-    description:
-      'Airbnb clone using react native and aws amplify.',
+    description: 'Airbnb clone using react native and aws amplify.',
   },
   {
     id: 'filters',
@@ -25,5 +24,4 @@ export const projectData: Project[] = [
     description:
       'A full-stack mobile app. iOS and Android app that collects payments, manages user accounts, and maintains a shopping cart in global state.',
   },
-
 ]
