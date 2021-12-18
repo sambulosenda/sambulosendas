@@ -16,7 +16,7 @@ const Layout = ({ children, title = 'Default title' }: Props) => {
   return (
     <div className="max-w-screen-sm mx-auto px-6">
       <Head>
-        <title>Kate Hsiao</title>
+        <title>Sambulo Senda</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
@@ -25,8 +25,7 @@ const Layout = ({ children, title = 'Default title' }: Props) => {
           <div className="flex-grow">
             <Link href="/" passHref>
               <a className={router.pathname === '/' ? 'active' : ''}>
-                Kate Hsiao
-              </a>
+Sambulo Senda              </a>
             </Link>
           </div>
           <div>
@@ -50,21 +49,21 @@ const Layout = ({ children, title = 'Default title' }: Props) => {
         <div className="py-20 flex text-lg text-gray-500">
           <div className="flex flex-grow space-x-3">
             <a
-              href="https://twitter.com/kamebkj"
+              href="https://twitter.com/sambulosenda"
               target="_blank"
               rel="noreferrer"
             >
               <FaTwitter />
             </a>
             <a
-              href="https://github.com/kamebkj"
+              href="https://github.com/sambulosenda"
               target="_blank"
               rel="noreferrer"
             >
               <FaGithub />
             </a>
             <a
-              href="https://www.linkedin.com/in/khsiao"
+              href="https://www.linkedin.com/in/sambulosenda/"
               target="_blank"
               rel="noreferrer"
             >

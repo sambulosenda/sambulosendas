@@ -13,17 +13,9 @@ const IndexPage = () => {
         </span>
       </div>
       <p className="text-base text-gray-700 antialiased dark:text-gray-200 transition-all">
-        I’m Kate, a Product Designer who loves pattern finding and crafting
-        functional and beautiful user experience. Obsessed with system thinking.
-        A firm believer that API design is product design. Currently leading{' '}
-        <a
-          href="https://evergreen.segment.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          design system
-        </a>{' '}
-        at Segment.
+        I’m Sambulo Senda, I’m a developer who also designs, with a keen interest in web and mobile technology.
+
+I enjoy sharing my knowledge and helping others adopt the technologies I’m passionate about. 
         <br />
         <br />
         Check out some of{' '}
