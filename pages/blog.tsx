@@ -8,11 +8,13 @@ import Layout from '../components/Layout'
 const Blog = ({ posts }) => {
   return (
     <Layout>
-      {posts.map((post, index) => (
-        <Link href={'/blog/' + post.slug} passHref key={index}>
-          {post.frontMatter.title}
-        </Link>
-      ))}
+      <div className="my-5 flex flex-col	">
+        {posts.map((post, index) => (
+          <Link href={'/blog/' + post.slug} passHref key={index}>
+            {post.frontMatter.title}
+          </Link>
+        ))}
+      </div>
     </Layout>
   )
 }
