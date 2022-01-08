@@ -43,6 +43,13 @@ const Layout = ({ children, title = 'Default title' }: Props) => {
               </a>
             </Link>
           </div>
+          <div>
+            <Link href="/blog" passHref>
+              <a className={router.pathname === '/blog' ? 'active' : ''}>
+                Blog
+              </a>
+            </Link>
+          </div>
         </nav>
       </header>
       {children}
