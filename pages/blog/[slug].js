@@ -10,7 +10,7 @@ const PostPage = ({ frontMatter: { title, date }, mdxSource }) => {
   return (
     <Layout>
       <div className="mt-4">
-        <h1>{title}</h1>
+        <h1 className="font-bold mb-8 text-base text-gray-700 antialiased dark:text-gray-200 transition-all">{title}</h1>
         <MDXRemote {...mdxSource} components={{ SyntaxHighlighter }} />
       </div>
     </Layout>
