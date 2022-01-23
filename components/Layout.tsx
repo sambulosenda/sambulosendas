@@ -14,7 +14,7 @@ const Layout = ({ children, title = 'Default title' }: Props) => {
   const router = useRouter()
 
   return (
-    <div className="max-w-screen-sm mx-auto px-6">
+    <div className="max-w-screen-md mx-auto px-2">
       <Head>
         <title>Sambulo Senda</title>
         <meta charSet="utf-8" />
