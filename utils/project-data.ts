@@ -5,7 +5,7 @@ export const projectData: Project[] = [
     id: 'evergreen',
     title: 'Scrypto',
     image: '/project-thumbnail-evergreen.png',
-    url: 'https://evergreen.segment.com/',
+    url: 'https://github.com/sambulosenda/SCrypto',
     description:
       'Virtual Crypto Exchange Application build using React Native and AWS Amplify',
   },
