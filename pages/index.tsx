@@ -15,7 +15,7 @@ const IndexPage = () => {
       <p className="text-base text-gray-700 antialiased dark:text-gray-200 transition-all">
         I’m Sambulo Senda, I’m a developer who also designs, with a keen
         interest in web and mobile technology. I enjoy sharing my knowledge and
-        helping others adopt the technologies I’m passionate about.
+        helping others adopt the technologies I’m passionate about. Thanks for visiting my profile
         <br />
         <br />
         Check out some of{' '}
