@@ -11,11 +11,11 @@ export const projectData: Project[] = [
   },
   {
     id: 'functions',
-    title: 'Airbnb React native Clone',
+    title: 'Feeling.Social (React Native App)',
     image: '/project-thumbnail-functions1.jpg',
     url: 'https://github.com/sambulosenda/FeelingSocial',
     description:
-      'Social network app for built with react native with AWS Amplify. Uses graphQL APIs',
+      'A Micro blogging Social network app for built with react native with AWS Amplify. Uses graphQL APIs',
   },
   {
     id: 'filters',
