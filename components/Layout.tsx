@@ -1,9 +1,9 @@
-import React, { ReactNode } from 'react'
-import { useRouter } from 'next/router'
-import Link from 'next/link'
 import Head from 'next/head'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
+import { ReactNode } from 'react'
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import ModeToggle from './ModeToggle'
-import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa'
 
 type Props = {
   children?: ReactNode
@@ -43,13 +43,13 @@ const Layout = ({ children, title = 'Default title' }: Props) => {
               </a>
             </Link>
           </div>
-          <div>
+          {/* <div>
             <Link href="/blog" passHref>
               <a className={router.pathname === '/blog' ? 'active' : ''}>
                 Blog
               </a>
             </Link>
-          </div>
+          </div> */}
         </nav>
       </header>
       {children}
