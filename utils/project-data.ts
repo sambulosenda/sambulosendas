@@ -19,10 +19,10 @@ export const projectData: Project[] = [
   },
   {
     id: 'filters',
-    title: 'React Native Ecommerce App',
-    image: '/project-thumbnail-filters.png',
-    url: 'https://github.com/sambulosenda/Shopping-Mobile-App',
+    title: 'Banana Market Place',
+    image: '/project-thumbnail-filters1.jpg',
+    url: 'https://github.com/sambulosenda/Market-place',
     description:
-      'A full-stack mobile app. iOS and Android app that collects payments, manages user accounts, and maintains a shopping cart in global state.',
+      'Serverless Banana Market using NextJS, Tailwind, Prisma, PlanetScale and Cloudflare',
   },
 ]
