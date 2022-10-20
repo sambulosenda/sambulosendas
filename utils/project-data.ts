@@ -12,9 +12,10 @@ export const projectData: Project[] = [
   {
     id: 'functions',
     title: 'Airbnb React native Clone',
-    image: '/project-thumbnail-functions.png',
-    url: 'https://github.com/sambulosenda/Airbnb-React-Native-Clone',
-    description: 'Airbnb clone using react native and aws amplify.',
+    image: '/project-thumbnail-functions1.jpg',
+    url: 'https://github.com/sambulosenda/FeelingSocial',
+    description:
+      'Social network app for built with react native with AWS Amplify. Uses graphQL APIs',
   },
   {
     id: 'filters',
