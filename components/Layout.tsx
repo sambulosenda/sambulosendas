@@ -32,7 +32,7 @@ const Layout = ({ children, title = 'Default title' }: Props) => {
           <div>
             <Link href="/projects" passHref>
               <a className={router.pathname === '/projects' ? 'active' : ''}>
-                Work
+               Projects
               </a>
             </Link>
           </div>

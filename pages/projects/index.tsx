@@ -12,7 +12,7 @@ const WithStaticProps = ({ items }: Props) => (
   <Layout title="Work">
     <div className="text-3xl font-bold my-4 antialiased">
       <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500">
-        Work
+       Projects
       </span>
     </div>
     {items.map((item) => (
