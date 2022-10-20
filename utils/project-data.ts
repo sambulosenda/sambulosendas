@@ -2,14 +2,6 @@ import { Project } from '../interfaces'
 
 export const projectData: Project[] = [
   {
-    id: 'evergreen',
-    title: 'Scrypto',
-    image: '/project-thumbnail-evergreen.png',
-    url: 'https://github.com/sambulosenda/SCrypto',
-    description:
-      'Virtual Crypto Exchange Application build using React Native and AWS Amplify',
-  },
-  {
     id: 'functions',
     title: 'Feeling.Social (React Native App)',
     image: '/project-thumbnail-functions1.jpg',
@@ -24,5 +16,13 @@ export const projectData: Project[] = [
     url: 'https://github.com/sambulosenda/Market-place',
     description:
       'Serverless Banana Market using NextJS, Tailwind, Prisma, PlanetScale and Cloudflare',
+  },
+  {
+    id: 'evergreen',
+    title: 'Scrypto',
+    image: '/project-thumbnail-evergreen.png',
+    url: 'https://github.com/sambulosenda/SCrypto',
+    description:
+      'Virtual Crypto Exchange Application build using React Native and AWS Amplify',
   },
 ]
